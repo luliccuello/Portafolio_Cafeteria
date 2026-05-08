@@ -1,17 +1,14 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
 body {
     font-family: Arial, sans-serif;
     background-color: #f5ebe0;
 }
 
-/* HEADER */
 .header {
     text-align: center;
     padding: 20px;
@@ -30,7 +27,6 @@ body {
     margin-top: 5px;
 }
 
-/* NAV */
 .nav {
     margin-top: 15px;
 }
@@ -46,10 +42,9 @@ body {
     text-decoration: underline;
 }
 
-/* INICIO (imagen pantalla completa) */
 .inicio {
     height: 100vh;
-    background-image: url("https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb");
+    background-image: url("Portafolio_Imagenes/inicio.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -65,13 +60,11 @@ body {
     border-radius: 10px;
 }
 
-/* SECCIONES */
 .presentacion, .menu {
     padding: 40px;
     text-align: center;
 }
 
-/* MENÚ */
 .productos {
     display: flex;
     justify-content: center;
@@ -96,7 +89,6 @@ body {
     margin: 10px 0;
 }
 
-/* BOTONES */
 button {
     padding: 10px 15px;
     border: none;
@@ -110,7 +102,6 @@ button:hover {
     background-color: #4b3224;
 }
 
-/* FOOTER */
 .footer {
     background-color: #6f4e37;
     color: white;
